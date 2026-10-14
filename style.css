@@ -1,0 +1,457 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(239, 239, 239);
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+     margin-left: 29px;
+      margin-right: 20px;
+}
+
+.navigations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    background-color: black;
+    color: silver;
+     border: 1px solid rgba(74, 73, 73, 0.263);
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.List {
+    display: flex;  
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 100px;
+    
+}
+.fifth-info{
+display: flex;
+
+gap: 5px;
+padding-left: 20px;
+padding-top: 10px;
+
+
+}
+.first-item {
+    display: flex;
+    font-size: large;
+
+    margin-left: 12px;
+
+}
+
+.multiple-images {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 20px;
+   
+}
+
+.images {
+    display: flex;
+   margin-left: 30px;
+    border-radius: 30px;
+   padding: 20px 20px;
+   background-color: rgb(239, 239, 239);
+   width: fit-content;
+   
+}
+
+.main {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.mini {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bottom-left{
+    display: flex;
+   
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.main-name{
+
+display: flex;
+flex-direction: column;
+
+}
+.name{
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.dicrip{
+    font-size: small;
+    color: rgb(152, 152, 152);
+    margin-left: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+
+.hotel-info{
+    display: flex;
+    justify-content: space-between;
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    margin-left: 20px;
+    margin-right: 20px;
+        height: 100px;
+        margin-top: 10px;
+    
+}
+
+.second-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 5px ;
+}
+.third-info{
+display: flex;
+gap: 5px;
+padding-left: 20px;
+padding-top: 10px;
+
+
+}
+.bottom-discrip{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+width: 1000px;
+}
+
+.irl-dis{
+    font-size: small;
+}
+
+.content{
+    display: flex;
+    gap: 22px;
+}
+.fourth-info{
+display: flex;
+gap: 5px;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+.special-card{
+     background-color: rgb(239, 239, 239);
+     padding-left: 25px;
+     border-radius: 30px;
+}
+
+.title{
+    font-size: xx-large;
+    padding-top: 15px;
+}
+
+.place{
+    font-size: small;
+    color: rgb(152, 152, 152);
+    padding-top: 15px;
+        
+}
+
+.price{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.night{
+    display: flex;
+    color: rgb(152, 152, 152);
+    font-size: small;
+    margin-top: 5px;
+}
+.dates{
+   display: flex;
+   flex-direction: column;
+   
+
+}
+.first-dates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.mini-guest{
+    font-size: smaller;
+     color: rgb(152, 152, 152);
+}
+
+.sub-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.no-refund{
+    display: flex;
+    
+}
+
+.refund{
+    display: flex;
+    padding-top: 20px;
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    padding-left: 10px  ;
+}
+
+.cancellation{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    padding-top: 20px;
+     border: 1px solid rgba(74, 73, 73, 0.263);
+
+}
+
+.before-tax{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.non-refund{
+    color: rgb(152, 152, 152);
+    padding-bottom: 15px;
+}
+
+.yes-fund{
+    color: rgb(152, 152, 152);
+    
+}
+
+.cancel-info{
+    color: rgb(152, 152, 152);
+        font-size: smaller;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+}
+
+.real-date{
+    color: rgb(152, 152, 152);
+}
+
+.text-tax{
+display: flex;
+justify-content: space-between;
+padding-bottom: 20px;
+}
+
+.room-status{
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.real-button{
+    display: flex;
+
+    padding: 15px 150px;
+    border-radius: 5px;
+border: none;
+    color: white;
+    background-color: black;
+
+}
+
+.reminder{
+background-color: rgb(239, 239, 239);
+    display: flex;
+    font-size: smaller;
+    gap: 10px;
+    margin-top: 20px;
+     border: 1px solid rgba(74, 73, 73, 0.263);
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.big-card{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bottom-discrip{
+    padding-top: 20px;
+}
+.big{
+    font-size: x-large;
+}
+.irl-dis{
+    padding-top: 20px;
+    color: rgb(152, 152, 152);
+}
+
+.bed-title{
+    display: flex;
+        padding-left: 20px;
+        padding-top: 10px;
+color: rgb(152, 152, 152);
+font-size: 15px;
+}
+.parking-title{
+color: rgb(152, 152, 152);
+padding-left: 20px;
+padding-top: 10px;
+
+
+}
+.bath-title{
+color: rgb(152, 152, 152);
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.area-title{
+color: rgb(152, 152, 152);
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.right-side{
+    margin-right: 20px;
+}
+
+.other a{
+    color: black;
+    text-decoration: none;
+}
+
+.item a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.check-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    padding-right: 30px;
+    margin-right: 30px;
+    height: 70px;
+   
+    
+}
+.num-guests{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-right: 160px;
+padding-top: 25px;
+  border: 1px solid rgba(74, 73, 73, 0.263);
+padding-bottom: 20px;
+}
+
+.bed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    gap: 10px;
+}
+
+.bathroom{
+    display: flex;
+    flex-direction: column;
+          border: 1px solid rgba(74, 73, 73, 0.263);
+   width: 100%;
+
+}
+
+.area{
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    width: 100%;
+}
+.Parking{
+
+    width: 100%;
+}
+.button-list{
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 14px;
+      border: 1px solid rgba(74, 73, 73, 0.263);
+    background-color: rgb(239, 239, 239);
+
+    padding-right:30px;
+    padding-left: 30px;
+}
+
+.tot{
+    padding-left: 5px;
+}
+
+.irl-dis     a{
+
+color: rgb(152, 152, 152);
+}
